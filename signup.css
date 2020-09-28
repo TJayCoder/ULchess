@@ -1,0 +1,50 @@
+
+.area  ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    font-weight: 900px;
+    font-size: large;
+    letter-spacing: 1px;
+
+}
+
+.area li{
+    list-style: none;
+}
+.area nav{
+    text-align: center;
+}
+
+
+.area h1{
+   
+    text-align: center;
+}
+
+.area  form{
+    text-align: center;
+ 
+}
+
+.area input{
+    height: 50px;
+    width: 500px;
+    background-color:white;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 50px;
+ 
+}
+
+.buttons{
+    margin-bottom: 30px;
+    height: 50px;
+    width: 500px;
+    background-color: wheat;
+    color: black;
+    border-radius: 20px;
+}
+
+ a{
+    text-decoration: none;
+}

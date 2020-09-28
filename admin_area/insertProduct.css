@@ -1,0 +1,255 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;	
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+    
+   
+}
+
+body{
+    
+    background-color: rgb(136, 159, 175);
+}
+/* main */
+.Main_wrapper{
+
+    width: 1000px;
+ height: auto;
+ margin: auto;
+
+
+}
+
+/* header */
+
+.header_wrapper{
+
+    width: 1000px;
+    height: 130px;
+    margin: auto;
+}
+
+
+
+#logo{
+    
+    float: left; 
+    height: 130px;
+    width:500px;
+    padding-right: 50px;
+  
+   }
+    h1{
+       font-family: COMIC SANS MS;
+       padding-bottom:5px ;
+    }
+  
+
+  
+
+   /*  -----------MENU------------------*/
+   .menu_bar{
+   
+    background-color: gray;
+    color: white;
+    width: 1000px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    line-height: 35px; 
+    float: left; 
+
+   }
+
+   .menu_bar li{
+
+    list-style: none;
+    display: inline;
+
+   }
+
+   .menu_bar a{
+       text-decoration: none;
+       color: wheat;
+       padding:8px;
+       margin: 10px;
+       font-size: 14px;
+       font-family: COMIC SANS MS;
+
+   }
+
+   .menu_bar a:hover{
+       color: orange ;
+       font-weight: bolder;
+       text-decoration: underline;
+   }
+
+  
+  
+/* ------------------------------------------------------------------CONTECT AREA----------------------- */
+
+.content_wrapper{
+    width: 1000px;
+    margin: auto;
+    background: white;
+    
+}
+
+.content_area{
+
+    width: 800px;
+    float: right;
+background-color: white;
+}
+
+
+
+.single_product img{
+
+    border: 2px solid black;
+    text-align: center;
+}
+
+.order{
+   float:right; 
+   color:white;
+    font:12px; 
+    background-color:orangered;
+     border-radius: 20px;
+      padding: 5px;
+}
+
+
+#shopping_cart{
+    width: 800px;
+    height: 50px;
+    background-color:white ;
+    color: black;
+}
+#cart{
+
+    color:rgb(240, 158, 6);
+     text-decoration:none;
+
+}
+
+#cart:hover{
+    background-color: orange;
+    color: black;
+    text-decoration: underline;
+    
+}
+
+
+#shoppingC{
+color:rgb(240, 158, 6);
+}
+
+.vinput{
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+#cats li{
+    list-style: none;
+    padding: 10px;
+    
+}
+
+#cats{
+    text-align: center;
+}
+
+#cats a{
+    color: wheat;
+    padding: 8px;
+    margin: 5px;
+    font-size: 22px;
+    font-family: comic sans ms;
+    text-decoration: none;
+    
+}
+
+#cats a:hover{
+
+
+color:orange;
+font-weight: bolder;
+text-decoration: underline;
+
+}
+
+.content_area label{
+
+    font-size: 34px;
+
+}
+
+.content_area input{
+
+    width: 300px;
+    height: 40px;
+}
+
+.register{
+    text-align: center;
+    padding-top:50px;
+}
+
+
+.register table td{
+
+    padding-bottom:10px;
+}
+
+
+/*--------footer-------------------------------  */
+.footer{
+    width: 1000px;
+    height: 40px;
+    background-color: gray;
+    clear: both;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
