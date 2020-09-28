@@ -207,13 +207,6 @@ if($myaqlQuery){
 ?>
 
 
-
-
-
-		 
-		 
-		
-		 
 		 
 
 </div>
