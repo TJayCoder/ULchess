@@ -59,7 +59,7 @@
             mysqli_select_db($conn,"chessclub")or die(mysqli_error($conn));
             
 
-if(isset($_POST['login'])){
+      if(isset($_POST['login'])){
       $email=$_POST['email'];
       $pass=$_POST['password'];
 

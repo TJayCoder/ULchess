@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+
 ?>
 
 
@@ -79,7 +80,8 @@ if(isset($_POST['login'])){
       
       if($check_admin>0){
 
-       
+      
+
       echo"<script> alert('LOGGED IN SUCCESSFULLY');</script>";
       echo"<script> window.open('../insertProduct.php','_self');</script>";
 

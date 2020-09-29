@@ -88,25 +88,9 @@ session_start();
 		 <div class="register">
 
          <p style="font-size:30px;  line height:40px; text-align:left;padding-bottom:30px;  padding-top:40px">
+
          
-        <?php
-
-        $conn=mysqli_connect("localhost","root","dimakatso") or die(mysqli_error($conn));
-        mysqli_select_db($conn,"chessclub")or die(mysqli_error($conn));
-
-
-        /*
-        $user=$_SESSION['email'];
-		$get_User="select * from admin where email='$user'";
-		$run_user=mysqli_query($conn,$get_User)or die(mysqli_error($conn));
-		$row_user=mysqli_fetch_array($run_user)or die(mysqli_error($conn));
-        $admin_name=$row_user['Position'];
-        $admin_name
-        */
-         echo" <b> WELCOME Admin  </b> ";
-        
-        ?>
-         
+         <b style="padding-left:50px"> WELCOME Admin User</b>
        
         
         
