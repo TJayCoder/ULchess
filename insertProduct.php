@@ -4,7 +4,7 @@ session_start();
 
 ?>
 
-<!Doctype html/>
+<!Doctype html>
 <html >
 
 
@@ -43,14 +43,18 @@ session_start();
         <ul>
 
         <li> <a href="insertProduct.php">INSERT STOCK </a> </li>
-        <li> <a href="admin_area/allproduct.php">VIEW ALL PRODUCTS</a> </li>
+        <li> <a href="admin_area/RegisterUser.php">REGISTER USER </a> </li>
         <li> <a href="admin_area/customerAcc.php">CUSTOMER ACCOUNTS </a> </li>
+        <li> <a href="admin_area/allproduct.php">VIEW ALL PRODUCTS</a> </li>
         <li> <a href="admin_area/ViewOrders.php">VIEW ORDERS </a> </li>
         <li> <a href="admin_area/tournaments.php">VIEW TOURNAMENTS </a> </li>
+      
+        <li>
+        </li>
        
 
     <?php
-        if(!isset($_SESSION['admin_email'])){
+        if(!isset($_SESSION['email'])){
 
             echo"<li> <a class='log' style='float:right; font-size:24px; padding:0px;' href='logout.php'>Logout</a></li> ";
             
@@ -75,7 +79,6 @@ session_start();
 
 		 <div id="shopping_cart">
 
-		 <p style="font-size:30px;  line height:40px; text-align:center; padding-top:40px"><b> WELCOME ADMIN! </b> </p>
 		
 		 </div>
 
@@ -84,13 +87,40 @@ session_start();
 
 		 <div class="register">
 
+         <p style="font-size:30px;  line height:40px; text-align:left;padding-bottom:30px;  padding-top:40px">
+         
+        <?php
+
+        $conn=mysqli_connect("localhost","root","dimakatso") or die(mysqli_error($conn));
+        mysqli_select_db($conn,"chessclub")or die(mysqli_error($conn));
+
+
+        /*
+        $user=$_SESSION['email'];
+		$get_User="select * from admin where email='$user'";
+		$run_user=mysqli_query($conn,$get_User)or die(mysqli_error($conn));
+		$row_user=mysqli_fetch_array($run_user)or die(mysqli_error($conn));
+        $admin_name=$row_user['Position'];
+        $admin_name
+        */
+         echo" <b> WELCOME Admin  </b> ";
+        
+        ?>
+         
+       
+        
+        
+        
+        </p>
+
+
 		 <form action="insertProduct.php" method="POST" enctype="multipart/form-data">
 
            
 <table >
 
             <tr>
-            <td><label for=""> Product Title:</label></td>
+            <td><label for="" > Product Title:</label></td>
             <td> <input type="text"  name="product_title"placeholder="Product Title" class="vinput"></td>
             </tr>
 

@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+include("../function/DatabaseQuery.php");
 
 ?>
 
@@ -11,7 +12,7 @@ session_start();
 <head>
 
 <title>Online UL Chess CLub</title>
-<link rel="stylesheet" href="insertProduct.css">
+<link rel="stylesheet" href="allproduct.css">
 
 </head>
 
@@ -43,10 +44,12 @@ session_start();
         <ul>
 
         <li> <a href="../insertProduct.php">INSERT STOCK </a> </li>
+		<li> <a href="RegisterUser.php">REGISTER USER </a> </li>
+		<li> <a href="customerAcc.php">CUSTOMER ACCOUNTS </a> </li>
         <li> <a href="allproduct.php">VIEW ALL PRODUCTS</a> </li>
-        <li> <a href="customerAcc.php">CUSTOMER ACCOUNTS </a> </li>
         <li> <a href="ViewOrders.php">VIEW ORDERS </a> </li>
         <li> <a href="tournaments.php">VIEW TOURNAMENTS </a> </li>
+
 
        
 
@@ -72,26 +75,73 @@ session_start();
 
 
 <!-------------------CONTENT AREA------------------------->
-         <div class="content_area" style="padding-bottom:400px">
+         <div class="content_area" style="padding-bottom:300px">
 
-		 <div id="shopping_cart">
-         <h2 align="center" style="font-size:30px;">View Orders</h2>
-		 <p style="font-size:30px;  line height:40px;padding-top:100px; text-align:left; ">
-         
-         <br>
-         <b >
-          Will be avaliable once the payment gateway is implemented!! </b> </p>
-		
-		 </div>
 
 
 		
+<!-----------------------------------------------display all product--------------------------------->
+		 <div class="register" align="center">
 
-		 <div class="register">
+         <p style="font-size:30px;  line height:40px; text-align:left;padding-bottom:30px;  padding-top:40px"><b> Orders Paid</b> </p>
 
-		 <form action="insertProduct.php" method="POST" enctype="multipart/form-data">
+		 <form action="" method="POST" enctype="multipart/form-data">
 
-           
+             <style>
+        table, th, td {
+         border: 4px solid black;
+        }
+            </style>
+
+
+
+
+<table style="width:1000px">
+<thead>
+  <tr align='center' style='font-size:20px'>
+      <th>#</th>
+    <th>Name</th>
+    <th>Surname</th> 
+    <th>Email</th>
+    <th>List of Items </th>
+    <th>Total Price</th>
+    
+	  
+  </tr>
+  </thead>
+  <tbody>
+   
+   <?php
+   
+ 
+  
+
+     
+	   echo "<tr align='center' style='font-size:22px'>";
+	   
+		echo "<td align='center'>";    	echo "</td>";
+        echo "<td align='center'>";     echo "</td>";
+        echo "<td align='center'>";     echo "</td>";
+        echo "<td align='center'>"; 	echo "</td>";
+        echo "<td align='center'>";     echo "</td>";
+        echo "<td align='center'>"; echo"R";    echo "</td>";
+    
+        
+        
+
+		
+	   
+	    echo "</tr>";
+	   
+
+   
+   ?>
+   
+  </tbody>
+  
+  
+  
+</table>
 
         </form>
 
@@ -109,7 +159,7 @@ session_start();
 		
 		</div> 
 		 
-	</div>
+</div>
 
 
 

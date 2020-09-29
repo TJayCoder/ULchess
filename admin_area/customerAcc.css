@@ -31,7 +31,7 @@ body{
 /* main */
 .Main_wrapper{
 
-    width: 1000px;
+    width: 1200px;
  height: auto;
  margin: auto;
 
@@ -42,7 +42,7 @@ body{
 
 .header_wrapper{
 
-    width: 1000px;
+    width: 1200px;
     height: 130px;
     margin: auto;
 }
@@ -70,7 +70,7 @@ body{
    
     background-color: gray;
     color: white;
-    width: 1000px;
+    width: 1200px;
     height: 50px;
     padding: 0;
     margin: 0;
@@ -107,7 +107,7 @@ body{
 /* ------------------------------------------------------------------CONTECT AREA----------------------- */
 
 .content_wrapper{
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     background: white;
     
@@ -174,7 +174,7 @@ background-color: white;
 
 /*--------footer-------------------------------  */
 .footer{
-    width: 1000px;
+    width: 1200px;
     height: 40px;
     background-color: gray;
     clear: both;

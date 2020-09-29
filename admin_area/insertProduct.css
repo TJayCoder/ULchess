@@ -31,7 +31,7 @@ body{
 /* main */
 .Main_wrapper{
 
-    width: 1000px;
+    width: 1200px;
  height: auto;
  margin: auto;
 
@@ -42,7 +42,7 @@ body{
 
 .header_wrapper{
 
-    width: 1000px;
+    width: 1200px;
     height: 130px;
     margin: auto;
 }
@@ -70,7 +70,7 @@ body{
    
     background-color: gray;
     color: white;
-    width: 1000px;
+    width: 1200px;
     height: 50px;
     padding: 0;
     margin: 0;
@@ -107,7 +107,7 @@ body{
 /* ------------------------------------------------------------------CONTECT AREA----------------------- */
 
 .content_wrapper{
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     background: white;
     
@@ -115,8 +115,8 @@ body{
 
 .content_area{
 
-    width: 800px;
-    float: right;
+    width: 1200px;
+  text-align:center;
 background-color: white;
 }
 
@@ -138,30 +138,7 @@ background-color: white;
 }
 
 
-#shopping_cart{
-    width: 800px;
-    height: 50px;
-    background-color:white ;
-    color: black;
-}
-#cart{
 
-    color:rgb(240, 158, 6);
-     text-decoration:none;
-
-}
-
-#cart:hover{
-    background-color: orange;
-    color: black;
-    text-decoration: underline;
-    
-}
-
-
-#shoppingC{
-color:rgb(240, 158, 6);
-}
 
 .vinput{
     border-radius: 20px;
@@ -170,37 +147,6 @@ color:rgb(240, 158, 6);
 
 
 
-
-
-
-#cats li{
-    list-style: none;
-    padding: 10px;
-    
-}
-
-#cats{
-    text-align: center;
-}
-
-#cats a{
-    color: wheat;
-    padding: 8px;
-    margin: 5px;
-    font-size: 22px;
-    font-family: comic sans ms;
-    text-decoration: none;
-    
-}
-
-#cats a:hover{
-
-
-color:orange;
-font-weight: bolder;
-text-decoration: underline;
-
-}
 
 .content_area label{
 
@@ -228,7 +174,7 @@ text-decoration: underline;
 
 /*--------footer-------------------------------  */
 .footer{
-    width: 1000px;
+    width: 1200px;
     height: 40px;
     background-color: gray;
     clear: both;

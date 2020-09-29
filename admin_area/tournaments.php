@@ -44,10 +44,12 @@ include("../function/DatabaseQuery.php");
         <ul>
 
         <li> <a href="../insertProduct.php">INSERT STOCK </a> </li>
+		<li> <a href="RegisterUser.php">REGISTER USER </a> </li>
+		<li> <a href="customerAcc.php">CUSTOMER ACCOUNTS </a> </li>
         <li> <a href="allproduct.php">VIEW ALL PRODUCTS</a> </li>
-        <li> <a href="customerAcc.php">CUSTOMER ACCOUNTS </a> </li>
         <li> <a href="ViewOrders.php">VIEW ORDERS </a> </li>
         <li> <a href="tournaments.php">VIEW TOURNAMENTS </a> </li>
+     
 
 
        
@@ -78,7 +80,6 @@ include("../function/DatabaseQuery.php");
 
 		 <div id="shopping_cart">
 
-		 <p style="font-size:30px;  line height:40px; text-align:center; padding-top:40px"><b> Chess players Entered the tournament </b> </p>
 		
 		 </div>
 
@@ -86,6 +87,9 @@ include("../function/DatabaseQuery.php");
 		
 <!-----------------------------------------------display all product--------------------------------->
 		 <div class="register" align="center">
+
+		 <p style="font-size:30px;  line height:40px; text-align:left;padding-bottom:30px;  padding-top:40px"><b> Chess players Entered the tournament </b> </p>
+
 
 		 <form action="" method="POST" enctype="multipart/form-data">
 

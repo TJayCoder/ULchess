@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+?>
+
 
 <!DOCTYPE html>
 <html lang="en" >
@@ -56,7 +61,9 @@ if(isset($_POST['login'])){
       $email=$_POST['email'];
       $pass=$_POST['password'];
 
-      $select_admin="select * from admin where   admin_email='$email' AND admin_password='$pass'";
+   
+
+      $select_admin="select * from admin where   email='$email' AND password='$pass'";
 
       $run_queryLogin=mysqli_query($conn,$select_admin);
 
@@ -72,6 +79,7 @@ if(isset($_POST['login'])){
       
       if($check_admin>0){
 
+       
       echo"<script> alert('LOGGED IN SUCCESSFULLY');</script>";
       echo"<script> window.open('../insertProduct.php','_self');</script>";
 
