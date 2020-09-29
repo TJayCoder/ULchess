@@ -49,6 +49,7 @@ include("../function/DatabaseQuery.php");
         <li> <a href="allproduct.php">VIEW ALL PRODUCTS</a> </li>
         <li> <a href="ViewOrders.php">VIEW ORDERS </a> </li>
         <li> <a href="tournaments.php">VIEW TOURNAMENTS </a> </li>
+       
 
 
        

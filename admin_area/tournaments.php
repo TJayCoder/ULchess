@@ -42,14 +42,13 @@ include("../function/DatabaseQuery.php");
 
 
         <ul>
-
         <li> <a href="../insertProduct.php">INSERT STOCK </a> </li>
 		<li> <a href="RegisterUser.php">REGISTER USER </a> </li>
 		<li> <a href="customerAcc.php">CUSTOMER ACCOUNTS </a> </li>
         <li> <a href="allproduct.php">VIEW ALL PRODUCTS</a> </li>
         <li> <a href="ViewOrders.php">VIEW ORDERS </a> </li>
         <li> <a href="tournaments.php">VIEW TOURNAMENTS </a> </li>
-     
+       
 
 
        

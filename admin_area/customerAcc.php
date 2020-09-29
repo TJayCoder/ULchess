@@ -42,7 +42,6 @@ include("../function/DatabaseQuery.php");
 
 
         <ul>
-
         <li> <a href="../insertProduct.php">INSERT STOCK </a> </li>
 		<li> <a href="RegisterUser.php">REGISTER USER </a> </li>
 		<li> <a href="customerAcc.php">CUSTOMER ACCOUNTS </a> </li>
