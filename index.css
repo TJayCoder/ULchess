@@ -239,9 +239,113 @@ ul li{
   
 }
 
-/*-------------------Media query ---------------------*/
+/*-------------------Media query for device with 991 width---------------------*/
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:991px){
+
+   *{
+       font-size: 20px;
+   }
+
+   .header{
+       padding-bottom: 100px;
+   }
+
+    .col-2 h1{
+        padding-top:30px;
+    }
+
+nav ul{
+
+    position: absolute;
+    top:70px;
+    left:0;
+    width: 100%;
+    background-color: blanchedalmond;
+    overflow: hidden;
+    
+   
+}
+
+
+
+
+
+nav ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.menu{
+    display: block;
+    cursor: pointer;
+}
+
+.btn-admin{
+    display: none;
+}
+
+}
+
+.category{
+  
+  background: black;
+    text-align: center;   
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    float: left;
+  
+}
+
+.category li:hover {
+  background: rgb(18, 197, 27);
+  border-radius: 20px;
+}
+
+fieldset{
+    border: 5px;
+}
+
+
+/*------------------------------------------------all product-----------------------------*/
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select{
+    border: 1px solid #ff523b;
+    padding:5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+@media only screen and (max-width:991px){
+
+    .row{
+        text-align: center;
+    }
+
+    .col-2 ,.col-3 , .col-4{
+        flex-basis: 100% ;
+    }
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------\*4
+
+/*-------------------Media query tablets---------------------*/
+
+@media only screen and (max-width:700px){
 
    
     .col-2 h1{
@@ -320,7 +424,101 @@ select:focus{
     outline: none;
 }
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:700px){
+
+    .row{
+        text-align: center;
+    }
+
+    .col-2 ,.col-3 , .col-4{
+        flex-basis: 100% ;
+    }
+}
+
+
+
+/*-------------------Media query  for Cellphones---------------------*/
+
+@media only screen and (max-width:400px){
+
+   
+    .col-2 h1{
+        padding-top:30px;
+    }
+
+nav ul{
+
+    position: absolute;
+    top:70px;
+    left:0;
+    width: 100%;
+    background-color: blanchedalmond;
+    overflow: hidden;
+    
+   
+}
+
+
+
+
+
+nav ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.menu{
+    display: block;
+    cursor: pointer;
+}
+
+.btn-admin{
+    display: none;
+}
+
+}
+
+.category{
+  
+  background: black;
+    text-align: center;   
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    float: left;
+  
+}
+
+.category li:hover {
+  background: rgb(18, 197, 27);
+  border-radius: 20px;
+}
+
+fieldset{
+    border: 5px;
+}
+
+
+/*------------------------------------------------all product-----------------------------*/
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select{
+    border: 1px solid #ff523b;
+    padding:5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+@media only screen and (max-width:400px){
 
     .row{
         text-align: center;

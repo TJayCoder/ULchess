@@ -82,11 +82,9 @@ include("function/DatabaseQuery.php");
           
     </nav>
   
-    <a href="cart.php"><img src="stock/cart.png" alt="" width="30px" ></a>
+    <a href="cart.php"><img src="stock/cart.png" alt="" width="60px" ></a>
 
-    <img src="stock/menu.png" alt="" width="30px"  height="30px" class="menu" onclick="menutoggle()">
-
-   
+<img src="stock/menu.png" alt="" width="60px"  height="60px" class="menu" onclick="menutoggle()">
              </div>
 
         
@@ -381,18 +379,22 @@ function orders(){
 <tr>
 
 <td align="center" colspan='1'>
-    
-<a href="cart.php" style="color:white; text-decoration:none">
-<button type="submit"  class="btn" style="color:white;width:100px ;height:60px ;color:'white'; font-size:20px" name="removeitems">Remove</buttton>
-    </a>
+   
+    <button type="submit"  class="btn" style="color:white;width:100px ;height:60px ;color:'white'; font-size:20px" name="removeitems">
+        <a href="cart.php" style="color:white; text-decoration:none">Remove</a>
+    </buttton>
 </td>
 
 <td align="center" colspan='3'>
-<a style="color:white; text-decoration:none" ><button type="submit" class="btn"  style=" width:200px ;height:60px; font-size:20px" name="update_cart">Update Quanity</buttton></a>
+    <button type="submit" class="btn"  style=" width:200px ;height:60px; font-size:20px" name="update_cart">
+        <a style="color:white; text-decoration:none" >Update Quanity</a>
+    </buttton>
 </td>
 
 <td align="center" colspan='2'>
-<a href="index.php" style="color:white; text-decoration:none" ><button type="submit" class="btn"  style=" width:200px ;height:60px; font-size:20px" name="continue">Continue Shopping</buttton></a>
+    <button type="submit" class="btn"  style=" width:200px ;height:60px; font-size:20px" name="continue">
+        <a href="index.php" style="color:white; text-decoration:none" >Continue Shopping</a>
+    </buttton>
 </td>
 
 </tr>
@@ -412,7 +414,9 @@ function orders(){
 	 </td>
 	 </tr>
 	
-    <td  align="center"  colspan='6' >    <a href="checkout.php"> <img  src="stock/payc.png" class="payment" alt="payment" height="90px" style="float:right"></a>  </td>
+         <td  align="center"  colspan='6' >  
+          <a href="checkout.php"> <img  src="stock/payc.png" class="payment" alt="payment" height="90px" style="float:right"></a>  
+        </td>
     
 
 		

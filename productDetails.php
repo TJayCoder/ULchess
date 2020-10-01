@@ -82,11 +82,9 @@ if(!isset($_SESSION['customer_email'])){
          
           
     </nav>
-  
-    <a href="cart.php"><img src="stock/cart.png" alt="" width="30px" ></a>
+    <a href="cart.php"><img src="stock/cart.png" alt="" width="60px" ></a>
 
-    <img src="stock/menu.png" alt="" width="30px"  height="30px" class="menu" onclick="menutoggle()">
-
+<img src="stock/menu.png" alt="" width="60px"  height="60px" class="menu" onclick="menutoggle()">
    
              </div>
 
@@ -138,7 +136,7 @@ function cart(){
         }
         else{
 
-        $insertcart="insert into cart values('$pro_id','$ip' ,'1','0')";
+        $insertcart="insert into cart values('$pro_id','$ip' ,'1')";
 
         $query=mysqli_query($conn,$insertcart)or die(mysqli_error($conn));
         
