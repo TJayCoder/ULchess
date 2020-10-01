@@ -7,12 +7,10 @@ global $conn;
 
 
 $id=$_GET["id"];
-
-
+$dsc="";
 $title="";
 $price="";
 $category="";
-$dsc="";
 $image="";
 $productKey="";
 
@@ -71,11 +69,16 @@ while($row=mysqli_fetch_array($res)){
 
         <ul>
 
+        <ul>
         <li> <a href="../insertProduct.php">INSERT STOCK </a> </li>
+		<li> <a href="RegisterUser.php">REGISTER USER </a> </li>
+		<li> <a href="customerAcc.php">CUSTOMER ACCOUNTS </a> </li>
         <li> <a href="allproduct.php">VIEW ALL PRODUCTS</a> </li>
-        <li> <a href="customerAcc.php">CUSTOMER ACCOUNTS </a> </li>
         <li> <a href="ViewOrders.php">VIEW ORDERS </a> </li>
         <li> <a href="tournaments.php">VIEW TOURNAMENTS </a> </li>
+       
+
+       
 
        
 
@@ -147,8 +150,9 @@ while($row=mysqli_fetch_array($res)){
             
 
             <tr>
-            <td><label for=""> Describe the Product:</label></td>
-            <td> <input name="product_description" placeholder="Describe the Product" class="vinput" value=<?php echo $dsc ?>></td>
+            <td><label for="" > Describe the Product:</label></td>
+            <td><textarea name="product_description" cols="35" rows="10" style=" font-size:18px;" placeholder="Describe the Product"  class="vinput" required><?php echo $dsc ;?>  </textarea></td>
+            
             </tr>
             
 			<tr>

@@ -9,7 +9,11 @@
 
 <br>
 
-<a href="https://www.paypal.com/za/signin"> <img src="stock/payc.png" alt="payment" height="110px" > </a>
+
+
+<a href="https://www.paypal.com/za/signin"> <img src="stock/payc.png"  alt="payment" height="110px" > </a>
+
+
 <br>
 <br>
 <h1>OR</h1>
@@ -25,6 +29,9 @@
   <br>
   <b> Email Proof of Payment: </b> Senyolotj@gmail.com
 </p>
+
+
+<img src="delivery.gif" alt="Delivery Animation">
 
 </div>
 

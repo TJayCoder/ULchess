@@ -76,10 +76,7 @@ include("../function/DatabaseQuery.php");
 <!-------------------CONTENT AREA------------------------->
          <div class="content_area">
 
-		 <div id="shopping_cart">
-
-		
-		 </div>
+	
 
 
 		
@@ -91,16 +88,17 @@ include("../function/DatabaseQuery.php");
 
 		 <form action="" method="POST" enctype="multipart/form-data">
 
-         <style>
-table, th, td {
-border: 5px solid black;
-}
-</style>
+        <style>
+
+          table, th, td {
+            border: 5px solid black;
+                        }
+        </style>
 
 
 
 
-<table style="width:1000px">
+<table style="width:1200px;">
 <thead>
 <tr>
 <th>ID</th>
@@ -140,7 +138,7 @@ echo "<td align='center'>"; echo $row["customer_country"];    	 echo "</td>";
 echo "<td align='center'>"; echo $row["customer_city"];    	 echo "</td>";
 echo "<td align='center'>"; echo $row["customer_contact"];    	 echo "</td>";
 
-echo "<td align='center'>"; ?> <img src="../customer/profile/<?php  echo $image ;?> "  width="100%" style="border-radius:50px"><?php   echo "</td>";
+echo "<td align='center'>"; ?> <img src="../customer/profile/<?php  echo $image ;?> "  width="50%" style="border-radius:50px"><?php   echo "</td>";
 echo "<td align='center'>"; echo $row["customer_address"];    	 echo "</td>";
 
 

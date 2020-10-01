@@ -60,4 +60,7 @@ echo "</tr>";
 </table>
 
 </form>
+
+<img src="../delivery.gif" alt="Delivery Animation">
+
 </div>

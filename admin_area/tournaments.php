@@ -101,7 +101,7 @@ include("../function/DatabaseQuery.php");
 
 
 
-<table style="width:1000px">
+<table style="width:1200px;">
 <thead>
   <tr align='center' style='font-size:20px'>
       <th>#</th>
@@ -113,6 +113,7 @@ include("../function/DatabaseQuery.php");
      <th>Date of birth</th>
     <th>Institution</th>
      <th>Tournament Name</th>
+     <th>Delete</th>
 	  
   </tr>
   </thead>
@@ -140,6 +141,18 @@ include("../function/DatabaseQuery.php");
         echo "<td align='center'>"; echo $row["institution"];    	 echo "</td>";
         echo "<td align='center'>"; echo $row["tournament_name"];    	 echo "</td>";
         
+        echo "<td align='center'>";
+        
+        
+        
+        ?>  
+        
+        <a href="deleteTournamentEntry.php?id=<?php echo $row['tournament_entry_id'];?> " >
+        <button type="button" style="width:100px; height:50px; border-radius:10px"> delete</button> 
+        
+         </a><?php echo "</td>";
+        
+        echo "</td>";
         
 
 		
@@ -152,7 +165,7 @@ include("../function/DatabaseQuery.php");
    
   </tbody>
   
-  
+
   
 </table>
 

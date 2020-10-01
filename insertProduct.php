@@ -105,20 +105,20 @@ session_start();
 
             <tr>
             <td><label for="" > Product Title:</label></td>
-            <td> <input type="text"  name="product_title"placeholder="Product Title" class="vinput"></td>
+            <td> <input type="text"  name="product_title"placeholder="Product Title" class="vinput" required></td>
             </tr>
 
             
             <tr>
             <td><label for=""> Product price:</label></td>
-            <td> <input type="text"  name="product_price"placeholder="Product price" class="vinput"></td>
+            <td> <input type="number"  name="product_price"placeholder="Product price" class="vinput" required></td>
             </tr>
 
 			
 			
             <tr>
            <td><label for="">Product Category:</label></td> 
-			<td><select name="product_cats" id="" style="width:300px; height:40px; font-size:20px" class="vinput">
+			<td><select name="product_cats" id="" style="width:300px; height:40px; font-size:20px" class="vinput" >
 
     <?php 
 
@@ -153,17 +153,17 @@ session_start();
 
             <tr>
             <td><label for=""> Describe the Product:</label></td>
-            <td> <textarea name="product_description" cols="35" rows="10" placeholder="Describe the Product" class="vinput"> </textarea></td>
+            <td> <textarea name="product_description" cols="35" rows="10" placeholder="Describe the Product" class="vinput" required> </textarea></td>
             </tr>
             
 			<tr>
             <td><label for="">Image:</label></td>
-            <td><input type="file" name="product_image"  placeholder="Image" >   </td>
+            <td><input type="file" name="product_image"  placeholder="Image" required >   </td>
             </tr>
 
             <tr>
             <td><label for=""> Product keyword:</label></td>
-            <td><input type="text"  name="product_keywords"placeholder="Product keyword"class="vinput"> </td>
+            <td><input type="text"  name="product_keywords"placeholder="Product keyword"class="vinput" required> </td>
             </tr>
             
 

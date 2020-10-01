@@ -97,7 +97,7 @@ include("../function/DatabaseQuery.php");
 
 
 
-<table style="width:1000px">
+<table style="width:1200px;">
 <thead>
   <tr align='center' style='font-size:20px'>
       <th>#</th>

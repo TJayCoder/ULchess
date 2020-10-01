@@ -27,6 +27,7 @@ if(isset($_POST['yes'])){
     if($run_delete){
 
     echo "<script>alert('We are sorry to hear you leaving too soon!');</script>";
+    $user=session_destroy();
     echo "<script>window.open('../index.php','_self');</script>";
     }
 }
