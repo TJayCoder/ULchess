@@ -11,7 +11,86 @@
 
 
 
-<a href="https://www.paypal.com/za/signin"> <img src="stock/payc.png"  alt="payment" height="110px" > </a>
+<a href="https://www.paypal.com/za/signin"> <img src="stock/payc.png" name='pay'  alt="payment" height="110px" > </a>
+
+<!---------------------------------------------------------adding product to user account as paid--------->
+<?php
+
+if(isset($_POST['pay'])){
+
+  $ip=getIp();
+  global $conn;
+
+$q_cart="select from cart where ip_add='$ip'";
+
+$query=mysqli_query($connn,$q_cart)or die(mysqli_error($conn));
+
+while(q==mysqli_fetch_array(query)){
+
+
+
+
+
+$totalPrice=$_SESSION['subtotal'];        //assigning  the total price
+$date =date("Y/m/d");                     // getting current date
+$email=$_SESSION['customer_email'];       //assigning the  email
+
+
+// retrieving Data of the user logged in
+$select_user="select * from customer='$email'";
+$userdata=mysqli_query($conn,$select_user)or die(mysqli_error($conn));
+
+while($user=mysqli_fetch_array($userdata)){
+
+$name=$user['customer_name'];
+$surname=$user['customer_surname'];
+
+
+}
+
+//retrive all names of the items added to the cart
+
+ $check_pro="select * from product where  product_id='$pro_id'";
+
+while($user=mysqli_fetch_array($userdata)){
+
+
+
+	$productList=$user["product_title"];
+
+}
+
+//inserting all this values to the orders table
+
+$orders="insert into orders values('null','$Name','$surname','$email','$date','$totalPrice','$productList','$ip')";
+
+$insertOrders=mysqli_fetch_array($conn,$orders)or die(mysqli_error($conn));
+
+//check if the query was successful
+if($insertOrders){
+
+  echo"<script> alert('Succefully paid')</script>";
+  echo"<script> window.open('checkout.php','_self');</script>";
+
+
+
+}else{
+
+  echo"<script> alert('Failed')</script>";
+  echo"<script> window.open('checkout.php','_self');</script>";
+
+}
+
+}
+}
+
+
+
+
+
+?>
+
+
 
 
 <br>

@@ -25,7 +25,7 @@
 
             
                
-                <input type="email" placeholder="Username/Email" name="email" required>
+                <input type="email" placeholder="Email" name="email" required>
             
                <br>
                 <input type="password" placeholder="Password"  name="password" required>

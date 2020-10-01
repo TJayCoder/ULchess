@@ -130,7 +130,7 @@ function cart(){
 
         if(mysqli_num_rows($run_check)>0){
 
-            echo "";
+            echo "Product not found";
 
         }
         else{

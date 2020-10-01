@@ -94,7 +94,7 @@ include("../function/DatabaseQuery.php");
 
 			<tr>
 
-			<td><label for="">Name:</label></td>
+			<td><label for="">Full Name:</label></td>
 			<td><input type="text" name="Name" class="vinput" required>  </td>
 
 			</tr>

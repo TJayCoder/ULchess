@@ -27,7 +27,7 @@ session_start();
 
             <div>
                
-                <input type="text" name="email" placeholder="Username/Email" required>
+                <input type="text" name="email" placeholder="Email" required>
             </div>
             <div>
                

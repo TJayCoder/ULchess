@@ -105,6 +105,7 @@ include("../function/DatabaseQuery.php");
     <th>Surname</th> 
     <th>Email</th>
     <th>List of Items </th>
+    <th>Date</th>
     <th>Total Price</th>
     
 	  
@@ -125,6 +126,7 @@ include("../function/DatabaseQuery.php");
         echo "<td align='center'>";     echo "</td>";
         echo "<td align='center'>"; 	echo "</td>";
         echo "<td align='center'>";     echo "</td>";
+        echo "<td align='center'>";    echo "</td>";
         echo "<td align='center'>"; echo"R";    echo "</td>";
     
         

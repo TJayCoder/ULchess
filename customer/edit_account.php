@@ -41,7 +41,7 @@ if($_SESSION['customer_email']){
 
 			<tr>
 
-			<td><label for="">Name:</label></td>
+			<td><label for="">Full Name:</label></td>
 			<td><input type="text" name="Name" class="vinput" value="<?php echo  $name; ?>">  </td>
 
 			</tr>

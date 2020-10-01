@@ -102,7 +102,7 @@ include("../function/DatabaseQuery.php");
 <thead>
 <tr>
 <th>ID</th>
-<th>Customer Name</th>
+<th>Customer Full Name</th>
 <th>Customer Email</th> 
 <th>Customer Country</th>
 <th>Customer City</th>
