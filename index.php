@@ -436,21 +436,21 @@ displayCat();
 
     </div>
    
-    <!-----------------------------footer---------------------->
-    <hr>
+       <!-----------------------------footer---------------------->
+       <hr>
     <footer>
         <div class="container">
             <div class="row">
                 <div class="footer-col-1">
 
-                    <h2 align="center" style="padding-bottom:10px; color: black;">Follow us</h2>
+                    <h2 align="center" style="padding-bottom:10px;">Follow us</h2>
 
                   <a href="https://twitter.com/login?lang=en">  <img src="stock/twitter.png" alt="" width="110px"></a>
-                    
+
                 </div>
             </div>
           
-            <h2 style="color: black; text-align: center;">&#169; 2020 by wwww.roamcode.co.za</h2>
+            <h2 style=" text-align: center;">&#169; 2020 by wwww.roamcode.co.za</h2>
         </div>
     </footer>
 

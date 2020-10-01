@@ -131,16 +131,39 @@ if(!isset($_SESSION['customer_email'])){
             <div class="row">
                 <div class="footer-col-1">
 
-                    <h2 align="center" style="padding-bottom:10px; color: black;">Follow us</h2>
+                    <h2 align="center">Follow us</h2>
 
                   <a href="https://twitter.com/login?lang=en">  <img src="stock/twitter.png" alt="" width="110px"></a>
                     
                 </div>
+
+
+                <div class="footer-col-1">
+                  
+                    <h2 align="center" style="padding-bottom:30px; ">CONTACT US</h2>
+                    
+                    <div class="contact">
+
+                    <h2 >Office Number: 0123456789</h2>
+                 
+                    </div>
+
+
+                    <div class="contact">
+                    <h2 >Email: <a style="color:white" href="Senyolotj@gmail.com">Senyolotj@gmail.com </a></h2>
+                    </div>          
+
+                </div>
+
+
             </div>
           
-            <h2 style="color: black; text-align: center;">&#169; 2020 by wwww.roamcode.co.za</h2>
+            <h2 style=" text-align: center; padding-top:20px">&#169; 2020 by wwww.roamcode.co.za</h2>
         </div>
     </footer>
+
+
+
 
 
     <!----------------------------js tottle menu---------------------->

@@ -206,12 +206,21 @@ h4{
     border-radius: 20px;
 }
 footer{
-    background: wheat;
+    background:black;
     font-size: 14px;
+    color: white;
     padding: 10px 0 10px;
     display:block;
 
     
+}
+.contact{
+    display:block;
+}
+
+footer p 
+{
+    color: white;
 }
 
 footer img{

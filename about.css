@@ -205,16 +205,31 @@ h4{
 
 
 footer{
-    background: wheat;
+    background:black;
     font-size: 14px;
+    color: white;
     padding: 10px 0 10px;
     display:block;
 
     
 }
+.contact{
+    display:block;
+    padding-top: 10px;
+}
+
+footer p 
+{
+    color: white;
+   
+}
 
 footer img{
     padding: 20px
+}
+
+footer h2{
+color: white;
 }
 
 .menu{
@@ -230,6 +245,12 @@ ul li{
 /*-------------------Media query ---------------------*/
 
 @media only screen and (max-width:750px){
+
+    .row{
+
+        display: block;
+    }
+
 
     .col-2 h1{
         padding-top:30px;
@@ -265,6 +286,7 @@ nav ul li{
 .btn-admin{
     display: none;
 }
+
 
 }
 
@@ -314,4 +336,7 @@ select:focus{
     .col-2 ,.col-3 , .col-4{
         flex-basis: 100% ;
     }
+
+
+
 }
