@@ -136,7 +136,10 @@ function cart(){
         }
         else{
 
-        $insertcart="insert into cart values('$pro_id','$ip' ,'1')";
+            $User_email=$_SESSION['customer_email'];
+
+            $insertcart="insert into cart values('$pro_id','$ip' ,'1','$prod_price','$User_email')";
+
 
         $query=mysqli_query($conn,$insertcart)or die(mysqli_error($conn));
         

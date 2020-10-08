@@ -197,8 +197,9 @@ function cart(){
 
     //---------------------------------adding to the cart
 
+    $User_email=$_SESSION['customer_email'];
 
-        $insertcart="insert into cart values('$pro_id','$ip' ,'1','$prod_price')";
+        $insertcart="insert into cart values('$pro_id','$ip' ,'1','$prod_price','$User_email')";
 
         $query=mysqli_query($conn,$insertcart)or die(mysqli_error($conn));
         
@@ -223,17 +224,17 @@ function cart(){
 ?>
         <div class="col-3">
                 <img src="stock/bag/pngguru.com (11).png" alt="" width="100px">
-                <h4>Hoodie</h4>
-                <p>R 500</p>
+                <h4>Bag</h4>
+                <p>R 150</p>
         </div>
         <div class="col-3">
             <img src="stock/chessset/pngguru.com (3).png" alt="" width="100px">
-            <h4>Hoodie</h4>
+            <h4>Chess Set</h4>
             <p>R 500</p>
         </div>
         <div class="col-3">
             <img src="stock/clocks/pngguru.com (4).png" alt="" width="100px">
-            <h4>Hoodie</h4>
+            <h4>Chess Clock</h4>
              <p>R 500</p>
 
         </div>

@@ -214,7 +214,7 @@ function orders(){
     $total=0;
     global  $totalValue;
     $totalValue=0;
-
+    $qty=1;
 	$price="select * from cart where ip_add='$ip'";
 
 	$run_query=mysqli_query($conn,$price)or die(mysqli_error($conn));
@@ -290,7 +290,7 @@ function orders(){
                             if($run_qty)
                             {
 
-                               
+                              
                                 $totalValue = $single_price * $qty;
 
 								$total=$total+($single_price * $qty);

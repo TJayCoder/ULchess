@@ -23,7 +23,7 @@
             </tr>
 
             <tr>
-			<td><label for="">Conform New Password:</label></td>
+			<td><label for="">Confirm New Password:</label></td>
 			<td ><input type="text"  name="repeatN_pass" class="vinput" value="" required>  </td>
             </tr>
             
