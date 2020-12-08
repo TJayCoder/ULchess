@@ -130,6 +130,7 @@ include("../function/DatabaseQuery.php");
 	   
 		echo "<td align='center'>";   echo $row["product_id"];     	echo "</td>";
         echo "<td align='center'>";   echo $row["product_title"]; echo "</td>";
+
         echo "<td align='center'>"; ?> <img src="../<?php  echo $image;  ?> " height="200" width="200"><?php   echo "</td>";
 
         echo "<td align='center'>"; echo $row["product_price"];    	 echo "</td>";

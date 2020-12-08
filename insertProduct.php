@@ -202,7 +202,7 @@ $destination1="pictures/".$product_image;   //destination on the table from the 
 
 move_uploaded_file($_FILES["product_image"]["tmp_name"],$destination);
 
-$myaqlQuery=mysqli_query($conn,"insert into product values('null','$_POST[product_cats]','$_POST[product_title]','$_POST[product_price]','$_POST[product_description]','$destination1','$_POST[product_keywords]')")or die(mysqli_error($conn));;
+$myaqlQuery=mysqli_query($conn,"insert into product values('null','$_POST[product_cats]','$_POST[product_title]','$_POST[product_price]','$_POST[product_description]','$destination1','$_POST[product_keywords]')")or die(mysqli_error($conn));
 
 if($myaqlQuery){
 	?>
